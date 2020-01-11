@@ -1,0 +1,76 @@
+/*Menu aplicacion*/
+.menu{
+    -fx-background-color: #87c0cd;
+}
+.menu .label{
+    -fx-padding-left:5px;
+    -fx-padding-right: 5px;
+    -fx-font-size: 14px;
+    -fx-text-fill: white; 
+    -fx-font-weight:bold;
+}
+.menu :hover .label{
+    -fx-background-color:#226597;
+}
+.menu .menu-item .label{
+    -fx-font-size: 12px;
+    -fx-text-fill: #87c0cd;
+}
+.menu .menu-item:hover .label{
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-color:#226597;
+}
+.menu .menu-item :hover{
+    -fx-text-fill: white;
+    -fx-background-color: #226597; 
+}
+
+/*Columnas*/
+.table-row-cell:empty,
+.table-row-cell:empty:hover,
+.table-row-cell:empty .table-cell,
+.table-row-cell:empty:hover .table-cell,
+.table-cell:empty:hover {
+    -fx-background-color:white;
+}
+
+.columna {
+    -fx-border-width: 0px;
+    -fx-margin: 0px;
+    -fx-background-color: #226597;  
+}
+.columna .label {
+    -fx-text-fill: white;
+}
+/*Boton guardar*/
+.boton{
+    -fx-padding:18px;
+    -fx-border-width: 0;
+    -fx-background-color: #87c0cd;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+.boton:hover{
+    -fx-border-width: 0px;
+    -fx-background-color: #226597;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+/*campos de texto y formulario*/
+.form{
+    -fx-background-color: #f3f9fb;
+}
+.text-field{
+    -fx-background-color: #87c0cd;
+    -fx-text-fill: white;
+    -fx-border-width: 0px;
+}
+.table-view{
+    -fx-border-width: 0px;
+}
+.etiqueta{
+    -fx-text-fill: #738598;
+    -fx-font-weight: bold;
+}
